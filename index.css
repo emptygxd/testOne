@@ -28,6 +28,7 @@ html {
 
 body {
   background-color: var(--bg-color);
+  overflow-x: hidden;
 }
 
 header {
@@ -58,7 +59,7 @@ header > h2 {
   font-family: "Prata";
   font-size: 36px;
   line-height: 150%;
-  letter-spacing: 3%;
+  letter-spacing: 3px;
   text-transform: uppercase;
 }
 
@@ -392,7 +393,7 @@ nav a:hover::after {
   font-family: "Prata";
   font-size: 36px;
   line-height: 150%;
-  letter-spacing: 3%;
+  letter-spacing: 3px;
 
   justify-self: start;
   grid-row: 1/2;
